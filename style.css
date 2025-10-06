@@ -19,7 +19,7 @@ div.herotext{
     text-align: right;
     position: absolute;
     top: 25%;
-    right: 25%;
+    right: 5%;
     transform: none;
     display: flex;
     flex-direction: column;
@@ -128,3 +128,4 @@ div.herotext{
     }
 
 }
+
