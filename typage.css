@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+/* Image container */
+.image {
+    height: 60vh; /* Adjust this value as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* Image styling */
+.image img {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+}
+
+/* Heading styling */
+h1 {
+    font-size: 5rem;
+    margin: 20px 0;
+    max-width: 90%;
+}
+
+/* Button container */
+.buttons {
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Optional: Button styling */
+button {
+    padding: 10px 20px;
+    font-size: 3.5rem;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    background-color: #000;
+    color: #fff;
+    padding: 0.6em 1.1em;
+    border: none;
+    border-radius: 12px;
+}
