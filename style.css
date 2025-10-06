@@ -13,7 +13,7 @@ img{
 }
 
 div.herotext{
-    font-size: 65px;
+    font-size: 2.5rem;
     font-weight: bold;
     color: #000;
     text-align: right;
@@ -126,4 +126,5 @@ div.herotext{
         height: 40vh;
         width: auto;
     }
+
 }
